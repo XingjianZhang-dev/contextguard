@@ -1,0 +1,59 @@
+{
+  "experiment": "helix_imputer_train",
+  "python": "python3",
+  "trainer": "experiments/original/scripts/train_helix_imputer.py",
+  "shared": {
+    "context_length": 512,
+    "max_train_windows": 2048,
+    "max_val_windows": 256,
+    "epochs": 10,
+    "patience": 3,
+    "batch_size": 16,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 2,
+    "seed": 2021
+  },
+  "datasets": {
+    "ett1_15T": {
+      "path": "data/GiftEval/ett1/15T",
+      "prediction_length": 48,
+      "output": "artifacts/helix/ett1_15T_seed2021"
+    },
+    "ett2_15T": {
+      "path": "data/GiftEval/ett2/15T",
+      "prediction_length": 48,
+      "output": "artifacts/helix/ett2_15T_seed2021"
+    },
+    "jena_10T": {
+      "path": "data/GiftEval/jena_weather/10T",
+      "prediction_length": 48,
+      "output": "artifacts/helix/jena_10T_seed2021"
+    },
+    "bitbrains_fast_5T": {
+      "path": "data/GiftEval/bitbrains_fast_storage/5T",
+      "prediction_length": 48,
+      "output": "artifacts/helix/bitbrains_fast_5T_seed2021"
+    },
+    "bitbrains_rnd_5T": {
+      "path": "data/GiftEval/bitbrains_rnd/5T",
+      "prediction_length": 48,
+      "output": "artifacts/helix/bitbrains_rnd_5T_seed2021"
+    },
+    "bizitobs_application": {
+      "path": "data/GiftEval/bizitobs_application",
+      "prediction_length": 60,
+      "output": "artifacts/helix/bizitobs_application_seed2021"
+    },
+    "bizitobs_service": {
+      "path": "data/GiftEval/bizitobs_service",
+      "prediction_length": 60,
+      "output": "artifacts/helix/bizitobs_service_seed2021"
+    },
+    "bizitobs_l2c_5T": {
+      "path": "data/GiftEval/bizitobs_l2c/5T",
+      "prediction_length": 48,
+      "output": "artifacts/helix/bizitobs_l2c_5T_seed2021"
+    }
+  }
+}

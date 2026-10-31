@@ -1,0 +1,22 @@
+{
+ "bizitobs_l2c_5T": {
+  "channels": 7,
+  "consistency": 0.5445483116827415,
+  "windows_scored": 500
+ },
+ "ett1_15T": {
+  "channels": 7,
+  "consistency": 0.3336530511476157,
+  "windows_scored": 500
+ },
+ "ett2_15T": {
+  "channels": 7,
+  "consistency": -0.034628972600725436,
+  "windows_scored": 500
+ },
+ "jena_10T": {
+  "channels": 21,
+  "consistency": 0.8008507553611266,
+  "windows_scored": 1400
+ }
+}

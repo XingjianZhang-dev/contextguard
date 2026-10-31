@@ -1,0 +1,21 @@
+# downloaded or generated locally
+/data/
+/models/
+/records/
+/logs/
+/artifacts/
+/third_party/
+/.venv*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# editors and OS
+.DS_Store
+.vscode/
+.idea/

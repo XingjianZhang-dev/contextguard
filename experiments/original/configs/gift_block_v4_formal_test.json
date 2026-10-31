@@ -1,0 +1,12 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_block_v4_formal_test",
+  "output_root": "logs/original/gift_block_v4_formal_test",
+  "split": "test",
+  "max_windows": 256,
+  "matrix": {
+    "corruption": ["block_missing"],
+    "severity": [3],
+    "corruption_seed": [201]
+  }
+}

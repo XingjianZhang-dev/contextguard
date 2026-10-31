@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{One-sided paired Wilcoxon tests, Holm-adjusted across the three losses (160 cells).}
+\label{tab:s-holm}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Comparison & MSE & MAE & Quantile loss \\
+\midrule
+ContextGuard vs topology & $7.85\times10^{-28}$ & $7.85\times10^{-28}$ & $7.85\times10^{-28}$ \\
+HELIX vs topology & $2.49\times10^{-24}$ & $5.19\times10^{-24}$ & $1.35\times10^{-25}$ \\
+ContextGuard vs HELIX & $2.77\times10^{-17}$ & $2.25\times10^{-11}$ & $2.25\times10^{-11}$ \\
+ContextGuard (ungated) vs topology & $3.21\times10^{-27}$ & $3.83\times10^{-27}$ & $7.85\times10^{-28}$ \\
+Ridge (ungated) vs topology & $2.77\times10^{-27}$ & $2.77\times10^{-27}$ & $7.85\times10^{-28}$ \\
+Ridge (gated) vs topology & $7.85\times10^{-28}$ & $7.85\times10^{-28}$ & $7.85\times10^{-28}$ \\
+Ledoit--Wolf (ungated) vs topology & $3.27\times10^{-27}$ & $3.76\times10^{-27}$ & $7.85\times10^{-28}$ \\
+Ledoit--Wolf (gated) vs topology & $7.85\times10^{-28}$ & $7.85\times10^{-28}$ & $7.85\times10^{-28}$ \\
+ContextGuard gated vs ungated & $3.74\times10^{-9}$ & $3.14\times10^{-15}$ & $5.73\times10^{-13}$ \\
+Ridge gated vs ungated & $2.74\times10^{-10}$ & $8.55\times10^{-13}$ & $9.86\times10^{-11}$ \\
+Ledoit--Wolf gated vs ungated & $3.74\times10^{-9}$ & $3.23\times10^{-15}$ & $6.18\times10^{-13}$ \\
+ContextGuard vs gated ridge & $6.71\times10^{-6}$ & 0.002 & $5.32\times10^{-5}$ \\
+ContextGuard vs gated Ledoit--Wolf & $5.07\times10^{-6}$ & $6.03\times10^{-19}$ & $1.04\times10^{-22}$ \\
+Cross-fitted vs published gate & 1.000 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

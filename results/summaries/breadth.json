@@ -1,0 +1,1078 @@
+{
+ "gate": {
+  "heldout": {
+   "baseline": {
+    "mean_absolute_coverage80_error": 0.09353885336054701,
+    "mean_width80": 1.0402974052561653
+   },
+   "method": {
+    "mean_absolute_coverage80_error": 0.10182235363456943,
+    "mean_width80": 1.0225810047652986
+   },
+   "metrics": {
+    "mae": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -4.636844924032735,
+      -0.04439579731924104
+     ],
+     "geometric_relative_change_percent": -2.2111005345558543,
+     "losses": 22,
+     "paired_log_ratio_effect_dz": -0.6569810317001608,
+     "sign_test_greater_holm_p": 1.2161033345676802e-12,
+     "sign_test_greater_p": 6.080516672838401e-13,
+     "t_ci95_percent": [
+      -2.6993737962382025,
+      -1.7203770237088745
+     ],
+     "ties": 60,
+     "wilcoxon_less_holm_p": 3.3921425934065197e-13,
+     "wilcoxon_less_p": 1.6960712967032599e-13,
+     "wins": 98
+    },
+    "mse": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -7.430503178089665,
+      -0.22348302446735246
+     ],
+     "geometric_relative_change_percent": -3.717499141652836,
+     "losses": 19,
+     "paired_log_ratio_effect_dz": -0.6512036421857248,
+     "sign_test_greater_holm_p": 1.613111380644411e-14,
+     "sign_test_greater_p": 5.377037935481371e-15,
+     "t_ci95_percent": [
+      -4.537818851901621,
+      -2.8901303108106458
+     ],
+     "ties": 60,
+     "wilcoxon_less_holm_p": 9.167738771687313e-16,
+     "wilcoxon_less_p": 3.055912923895771e-16,
+     "wins": 101
+    },
+    "quantile_loss": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -4.321654549318432,
+      0.14032069992200302
+     ],
+     "geometric_relative_change_percent": -1.9513714705396645,
+     "losses": 29,
+     "paired_log_ratio_effect_dz": -0.5862343062068328,
+     "sign_test_greater_holm_p": 6.0935429022525035e-09,
+     "sign_test_greater_p": 6.0935429022525035e-09,
+     "t_ci95_percent": [
+      -2.434950356854393,
+      -1.465395736786801
+     ],
+     "ties": 60,
+     "wilcoxon_less_holm_p": 1.5038603909999195e-10,
+     "wilcoxon_less_p": 1.5038603909999195e-10,
+     "wins": 91
+    }
+   },
+   "paired_cells": 180
+  },
+  "tirex_primary": {
+   "baseline": {
+    "mean_absolute_coverage80_error": 0.1715193342417479,
+    "mean_width80": 0.6714462161064148
+   },
+   "method": {
+    "mean_absolute_coverage80_error": 0.17598846107721333,
+    "mean_width80": 0.6563092533499002
+   },
+   "metrics": {
+    "mae": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -2.9647986304663143,
+      -0.5415562449923139
+     ],
+     "geometric_relative_change_percent": -1.652248854139704,
+     "losses": 6,
+     "paired_log_ratio_effect_dz": -0.6988455543461904,
+     "sign_test_greater_holm_p": 4.865610847559765e-08,
+     "sign_test_greater_p": 1.6218702825199216e-08,
+     "t_ci95_percent": [
+      -2.172635616743479,
+      -1.1290939255488297
+     ],
+     "ties": 30,
+     "wilcoxon_less_holm_p": 5.771576650508992e-08,
+     "wilcoxon_less_p": 1.9238588835029973e-08,
+     "wins": 44
+    },
+    "mse": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -4.443665258648288,
+      -0.439336990890693
+     ],
+     "geometric_relative_change_percent": -2.162072570238338,
+     "losses": 9,
+     "paired_log_ratio_effect_dz": -0.5176611532387302,
+     "sign_test_greater_holm_p": 2.8070500466270687e-06,
+     "sign_test_greater_p": 2.8070500466270687e-06,
+     "t_ci95_percent": [
+      -3.0771064079333277,
+      -1.2384000415891716
+     ],
+     "ties": 30,
+     "wilcoxon_less_holm_p": 3.661484678031374e-06,
+     "wilcoxon_less_p": 3.661484678031374e-06,
+     "wins": 41
+    },
+    "quantile_loss": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -2.676926228424692,
+      -0.49483839318806844
+     ],
+     "geometric_relative_change_percent": -1.50570473030327,
+     "losses": 7,
+     "paired_log_ratio_effect_dz": -0.6378765335425781,
+     "sign_test_greater_holm_p": 2.098677427397888e-07,
+     "sign_test_greater_p": 1.049338713698944e-07,
+     "t_ci95_percent": [
+      -2.0256552777981773,
+      -0.9829948015376178
+     ],
+     "ties": 30,
+     "wilcoxon_less_holm_p": 2.1166676009998352e-07,
+     "wilcoxon_less_p": 1.0583338004999176e-07,
+     "wins": 43
+    }
+   },
+   "paired_cells": 80
+  }
+ },
+ "heldout": {
+  "all": {
+   "baseline": {
+    "mean_absolute_coverage80_error": 0.3235742209686173,
+    "mean_width80": 0.6357726523445713
+   },
+   "method": {
+    "mean_absolute_coverage80_error": 0.10182235363456943,
+    "mean_width80": 1.0225810047652986
+   },
+   "metrics": {
+    "mae": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -31.085736051687775,
+      -15.006568529956766
+     ],
+     "geometric_relative_change_percent": -23.306532922678958,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.672793523315925,
+     "sign_test_greater_holm_p": 1.9575913403995574e-54,
+     "sign_test_greater_p": 6.525304467998525e-55,
+     "t_ci95_percent": [
+      -25.07518606315996,
+      -21.496129475897952
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 4.100333512355196e-31,
+     "wilcoxon_less_p": 1.366777837451732e-31,
+     "wins": 180
+    },
+    "mse": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -37.47748457739737,
+      -16.881155083213052
+     ],
+     "geometric_relative_change_percent": -27.857917012523238,
+     "losses": 4,
+     "paired_log_ratio_effect_dz": -1.4912081323016892,
+     "sign_test_greater_holm_p": 2.8234311191243157e-47,
+     "sign_test_greater_p": 2.8234311191243157e-47,
+     "t_ci95_percent": [
+      -30.144359280002764,
+      -25.496637291852608
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 6.218673321499408e-31,
+     "wilcoxon_less_p": 6.218673321499408e-31,
+     "wins": 176
+    },
+    "quantile_loss": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -39.05234766334581,
+      -23.33540413081017
+     ],
+     "geometric_relative_change_percent": -31.691852011351518,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.994366232114112,
+     "sign_test_greater_holm_p": 1.9575913403995574e-54,
+     "sign_test_greater_p": 6.525304467998525e-55,
+     "t_ci95_percent": [
+      -33.5851634989923,
+      -29.744567216267935
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 4.100333512355196e-31,
+     "wilcoxon_less_p": 1.366777837451732e-31,
+     "wins": 180
+    }
+   },
+   "paired_cells": 180
+  },
+  "chronos2": {
+   "baseline": {
+    "mean_absolute_coverage80_error": 0.32091885060071956,
+    "mean_width80": 0.6442566794653733
+   },
+   "method": {
+    "mean_absolute_coverage80_error": 0.10985726465781533,
+    "mean_width80": 1.030421439309915
+   },
+   "metrics": {
+    "mae": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -31.50536917305491,
+      -16.032706840356383
+     ],
+     "geometric_relative_change_percent": -24.07041715065319,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.7898821225336443,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -27.02885580506662,
+      -20.992035752179916
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+     "wilcoxon_less_p": 8.135001831514021e-12,
+     "wins": 60
+    },
+    "mse": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -37.95791968282487,
+      -18.32582884884143
+     ],
+     "geometric_relative_change_percent": -29.04610773580032,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.654038082238344,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -32.74854021976731,
+      -25.13984315148742
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+     "wilcoxon_less_p": 8.135001831514021e-12,
+     "wins": 60
+    },
+    "quantile_loss": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -43.65646307434662,
+      -27.373746244549192
+     ],
+     "geometric_relative_change_percent": -36.2282036840655,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -2.2411413521846955,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -39.450720886625824,
+      -32.83417961515004
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+     "wilcoxon_less_p": 8.135001831514021e-12,
+     "wins": 60
+    }
+   },
+   "paired_cells": 60
+  },
+  "timesfm25": {
+   "baseline": {
+    "mean_absolute_coverage80_error": 0.320056084295114,
+    "mean_width80": 0.5942688954373201
+   },
+   "method": {
+    "mean_absolute_coverage80_error": 0.09271893302599589,
+    "mean_width80": 0.9517321939269702
+   },
+   "metrics": {
+    "mae": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -31.237079601890606,
+      -15.58260367455836
+     ],
+     "geometric_relative_change_percent": -23.62285466727626,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.747717266205923,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -26.605346213324744,
+      -20.519165522175054
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+     "wilcoxon_less_p": 8.135001831514021e-12,
+     "wins": 60
+    },
+    "mse": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -38.328815905187184,
+      -18.30036958403467
+     ],
+     "geometric_relative_change_percent": -29.21988731926646,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.6217830513953007,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -33.010890031737986,
+      -25.214346727835558
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+     "wilcoxon_less_p": 8.135001831514021e-12,
+     "wins": 60
+    },
+    "quantile_loss": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -37.14334921784046,
+      -21.984432274064947
+     ],
+     "geometric_relative_change_percent": -29.945304584432918,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -2.0842114096257793,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -32.96833867340235,
+      -26.78593588996201
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+     "wilcoxon_less_p": 8.135001831514021e-12,
+     "wins": 60
+    }
+   },
+   "paired_cells": 60
+  },
+  "tirex": {
+   "baseline": {
+    "mean_absolute_coverage80_error": 0.3297477280100188,
+    "mean_width80": 0.6687923821310202
+   },
+   "method": {
+    "mean_absolute_coverage80_error": 0.10289086321989697,
+    "mean_width80": 1.085589381059011
+   },
+   "metrics": {
+    "mae": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -31.145789123327294,
+      -12.651664182083955
+     ],
+     "geometric_relative_change_percent": -22.214136363506366,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.4860622043667235,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -25.537851835972823,
+      -18.74206249936985
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4412667377868422e-11,
+     "wilcoxon_less_p": 8.137555792622807e-12,
+     "wins": 60
+    },
+    "mse": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -36.58479674009529,
+      -11.803375626865831
+     ],
+     "geometric_relative_change_percent": -25.238404825768523,
+     "losses": 4,
+     "paired_log_ratio_effect_dz": -1.2393452916358427,
+     "sign_test_greater_holm_p": 4.542251991201951e-13,
+     "sign_test_greater_p": 4.542251991201951e-13,
+     "t_ci95_percent": [
+      -29.636360396894148,
+      -20.565562774712408
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 7.175020964210054e-11,
+     "wilcoxon_less_p": 7.175020964210054e-11,
+     "wins": 56
+    },
+    "quantile_loss": {
+     "dataset_cluster_bootstrap_ci95_percent": [
+      -37.2366969794144,
+      -19.37679458948438
+     ],
+     "geometric_relative_change_percent": -28.65695650022484,
+     "losses": 0,
+     "paired_log_ratio_effect_dz": -1.8317023834843837,
+     "sign_test_greater_holm_p": 2.6020852139652106e-18,
+     "sign_test_greater_p": 8.673617379884035e-19,
+     "t_ci95_percent": [
+      -31.97483238208244,
+      -25.17725374233153
+     ],
+     "ties": 0,
+     "wilcoxon_less_holm_p": 2.4412667377868422e-11,
+     "wilcoxon_less_p": 8.137555792622807e-12,
+     "wins": 60
+    }
+   },
+   "paired_cells": 60
+  }
+ },
+ "native_missing": {
+  "heldout_chronos2": {
+   "cells": 60,
+   "contextguard_lower_mse": 60,
+   "contextguard_vs_native": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.10863199929396308,
+     "mean_width80": 80269.267578125
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.10985726465781533,
+     "mean_width80": 1.030421439309915
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -32.366612840210266,
+       -18.285153423146163
+      ],
+      "geometric_relative_change_percent": -25.59359614875514,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.9785205529375904,
+      "sign_test_greater_holm_p": 2.6020852139652106e-18,
+      "sign_test_greater_p": 8.673617379884035e-19,
+      "t_ci95_percent": [
+       -28.41088470489662,
+       -22.665437179201675
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+      "wilcoxon_less_p": 8.135001831514021e-12,
+      "wins": 60
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -38.579498041349005,
+       -19.735206063569567
+      ],
+      "geometric_relative_change_percent": -30.19579770395464,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.730819565539932,
+      "sign_test_greater_holm_p": 2.6020852139652106e-18,
+      "sign_test_greater_p": 8.673617379884035e-19,
+      "t_ci95_percent": [
+       -33.84226006651306,
+       -26.34835072833471
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+      "wilcoxon_less_p": 8.135001831514021e-12,
+      "wins": 60
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -99.99459268639762,
+       -99.9902727413959
+      ],
+      "geometric_relative_change_percent": -99.992708182683,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -14.094397407595325,
+      "sign_test_greater_holm_p": 2.6020852139652106e-18,
+      "sign_test_greater_p": 8.673617379884035e-19,
+      "t_ci95_percent": [
+       -99.99387637926512,
+       -99.99131713048762
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 2.4405005494542064e-11,
+      "wilcoxon_less_p": 8.135001831514021e-12,
+      "wins": 60
+     }
+    },
+    "paired_cells": 60
+   },
+   "native_vs_topology": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.32091885060071956,
+     "mean_width80": 0.6442566794653733
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.10863199929396308,
+     "mean_width80": 80269.267578125
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       0.8237467750101368,
+       3.262310826863035
+      ],
+      "geometric_relative_change_percent": 2.0471073983727495,
+      "losses": 53,
+      "paired_log_ratio_effect_dz": 1.1597987790225153,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 0.9999999999513852,
+      "t_ci95_percent": [
+       1.5875480363743533,
+       2.508745704211046
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9999999998223155,
+      "wins": 7
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -0.0437496213260391,
+       3.538793187565936
+      ],
+      "geometric_relative_change_percent": 1.647021139613325,
+      "losses": 40,
+      "paired_log_ratio_effect_dz": 0.5645070416080058,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 0.9968911986703367,
+      "t_ci95_percent": [
+       0.8899782818342139,
+       2.4097445803232143
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9389565052607716,
+      "wins": 20
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       640861.6877263011,
+       1193879.6524756544
+      ],
+      "geometric_relative_change_percent": 874466.5661061083,
+      "losses": 60,
+      "paired_log_ratio_effect_dz": 14.713926048971018,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 1.0,
+      "t_ci95_percent": [
+       745641.2298018951,
+       1025546.2268471001
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9999999999918752,
+      "wins": 0
+     }
+    },
+    "paired_cells": 60
+   },
+   "native_width_at_least_10x": 60
+  },
+  "heldout_tirex": {
+   "cells": 60,
+   "contextguard_lower_mse": 56,
+   "contextguard_vs_native": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.02487194041411082,
+     "mean_width80": 1.659685488541921
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.10289086321989697,
+     "mean_width80": 1.085589381059011
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -30.026421299029092,
+       -12.860792067300286
+      ],
+      "geometric_relative_change_percent": -21.782152830938305,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.5684397072973533,
+      "sign_test_greater_holm_p": 2.6020852139652106e-18,
+      "sign_test_greater_p": 8.673617379884035e-19,
+      "t_ci95_percent": [
+       -24.883910993972236,
+       -18.55231420166531
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 2.4412667377868422e-11,
+      "wilcoxon_less_p": 8.137555792622807e-12,
+      "wins": 60
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -35.76162249653731,
+       -12.309030259183073
+      ],
+      "geometric_relative_change_percent": -25.126474224735784,
+      "losses": 4,
+      "paired_log_ratio_effect_dz": -1.2961837108798246,
+      "sign_test_greater_holm_p": 9.084503982403902e-13,
+      "sign_test_greater_p": 4.542251991201951e-13,
+      "t_ci95_percent": [
+       -29.322348944352882,
+       -20.681505705313974
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 5.1432934892489266e-11,
+      "wilcoxon_less_p": 2.5716467446244633e-11,
+      "wins": 56
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -29.922164339267688,
+       -9.714790293271802
+      ],
+      "geometric_relative_change_percent": -20.03207414965186,
+      "losses": 5,
+      "paired_log_ratio_effect_dz": -1.285278704931617,
+      "sign_test_greater_holm_p": 5.191331739484717e-12,
+      "sign_test_greater_p": 5.191331739484717e-12,
+      "t_ci95_percent": [
+       -23.545519218616295,
+       -16.35716965899664
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 5.1432934892489266e-11,
+      "wilcoxon_less_p": 2.701851063571523e-11,
+      "wins": 55
+     }
+    },
+    "paired_cells": 60
+   },
+   "native_vs_topology": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.3297477280100188,
+     "mean_width80": 0.6687923821310202
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.02487194041411082,
+     "mean_width80": 1.659685488541921
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -1.9341019743462695,
+       0.8658271667675965
+      ],
+      "geometric_relative_change_percent": -0.5522825649168728,
+      "losses": 26,
+      "paired_log_ratio_effect_dz": -0.2924695185828734,
+      "sign_test_greater_holm_p": 0.36629400670329104,
+      "sign_test_greater_p": 0.18314700335164552,
+      "t_ci95_percent": [
+       -1.0375557208212038,
+       -0.06462981908267329
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 0.009764404263526488,
+      "wilcoxon_less_p": 0.004882202131763244,
+      "wins": 34
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -2.422290667819693,
+       2.07695108929542
+      ],
+      "geometric_relative_change_percent": -0.1494928946831009,
+      "losses": 33,
+      "paired_log_ratio_effect_dz": -0.04829304595448657,
+      "sign_test_greater_holm_p": 0.8168529966483544,
+      "sign_test_greater_p": 0.8168529966483544,
+      "t_ci95_percent": [
+       -0.9453680107897489,
+       0.6527768461646488
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 0.2069184774327245,
+      "wilcoxon_less_p": 0.2069184774327245,
+      "wins": 27
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -13.47967728795335,
+       -7.899932132612031
+      ],
+      "geometric_relative_change_percent": -10.78542710575434,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.8769003011568055,
+      "sign_test_greater_holm_p": 2.6020852139652106e-18,
+      "sign_test_greater_p": 8.673617379884035e-19,
+      "t_ci95_percent": [
+       -12.17583561841079,
+       -9.373006020069951
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 2.4412667377868422e-11,
+      "wilcoxon_less_p": 8.137555792622807e-12,
+      "wins": 60
+     }
+    },
+    "paired_cells": 60
+   },
+   "native_width_at_least_10x": 0
+  },
+  "primary_chronos2": {
+   "cells": 80,
+   "contextguard_lower_mse": 80,
+   "contextguard_vs_native": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.10206603989005085,
+     "mean_width80": 90549.25454101563
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.2001032128930092,
+     "mean_width80": 0.5503725659102201
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -43.86219075318436,
+       -20.489643722380556
+      ],
+      "geometric_relative_change_percent": -33.23650362534688,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.504754434691405,
+      "sign_test_greater_holm_p": 2.481541837659083e-24,
+      "sign_test_greater_p": 8.271806125530277e-25,
+      "t_ci95_percent": [
+       -37.10877656050773,
+       -29.125811132347312
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.1753538069332516e-14,
+      "wilcoxon_less_p": 3.9178460231108385e-15,
+      "wins": 80
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -57.07548528977659,
+       -20.547799329084693
+      ],
+      "geometric_relative_change_percent": -40.67530601895093,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.1325640268150925,
+      "sign_test_greater_holm_p": 2.481541837659083e-24,
+      "sign_test_greater_p": 8.271806125530277e-25,
+      "t_ci95_percent": [
+       -46.460016580756815,
+       -34.26558823549841
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.1753538069332516e-14,
+      "wilcoxon_less_p": 3.9178460231108385e-15,
+      "wins": 80
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -99.99689772638533,
+       -99.99359155461592
+      ],
+      "geometric_relative_change_percent": -99.99553466911036,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -15.06720426683411,
+      "sign_test_greater_holm_p": 2.481541837659083e-24,
+      "sign_test_greater_p": 8.271806125530277e-25,
+      "t_ci95_percent": [
+       -99.99614873859247,
+       -99.99482268850535
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.1753538069332516e-14,
+      "wilcoxon_less_p": 3.9178460231108385e-15,
+      "wins": 80
+     }
+    },
+    "paired_cells": 80
+   },
+   "native_vs_topology": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.35769559293985365,
+     "mean_width80": 0.3732389884069562
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.10206603989005085,
+     "mean_width80": 90549.25454101563
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       0.6451694289701937,
+       3.185756008477414
+      ],
+      "geometric_relative_change_percent": 1.923413796961082,
+      "losses": 60,
+      "paired_log_ratio_effect_dz": 0.8656332178825029,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 0.9999986340650385,
+      "t_ci95_percent": [
+       1.4254331788043029,
+       2.4238394103058614
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9999999685522336,
+      "wins": 20
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       0.5364793082437203,
+       4.555280396594652
+      ],
+      "geometric_relative_change_percent": 2.5709670640006843,
+      "losses": 61,
+      "paired_log_ratio_effect_dz": 0.6890759007130333,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 0.9999995928666687,
+      "t_ci95_percent": [
+       1.7335199929435774,
+       3.4153078078302146
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9999999630970997,
+      "wins": 19
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       971399.2144467008,
+       1611607.7799009474
+      ],
+      "geometric_relative_change_percent": 1269981.2596925201,
+      "losses": 80,
+      "paired_log_ratio_effect_dz": 18.543072179263135,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 1.0,
+      "t_ci95_percent": [
+       1133815.2848293823,
+       1422498.6965726982
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9999999999999961,
+      "wins": 0
+     }
+    },
+    "paired_cells": 80
+   },
+   "native_width_at_least_10x": 80
+  },
+  "primary_tirex": {
+   "cells": 80,
+   "contextguard_lower_mse": 79,
+   "contextguard_vs_native": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.042702844291925425,
+     "mean_width80": 1.473408791422844
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.17598846107721333,
+     "mean_width80": 0.6563092533499002
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -39.448230264966874,
+       -19.03025483621621
+      ],
+      "geometric_relative_change_percent": -30.188327797783522,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -1.5704998719975491,
+      "sign_test_greater_holm_p": 2.481541837659083e-24,
+      "sign_test_greater_p": 8.271806125530277e-25,
+      "t_ci95_percent": [
+       -33.65430971030098,
+       -26.541278651426992
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.1756648649970124e-14,
+      "wilcoxon_less_p": 3.9188828833233745e-15,
+      "wins": 80
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -50.29211354000108,
+       -18.998498114882633
+      ],
+      "geometric_relative_change_percent": -35.907405872573726,
+      "losses": 1,
+      "paired_log_ratio_effect_dz": -1.1743483989183723,
+      "sign_test_greater_holm_p": 1.3400325923359048e-22,
+      "sign_test_greater_p": 6.700162961679524e-23,
+      "t_ci95_percent": [
+       -41.08879247521499,
+       -30.27030348589027
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.1756648649970124e-14,
+      "wilcoxon_less_p": 4.3898999295086436e-15,
+      "wins": 79
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -37.901957903565254,
+       -12.18337156952134
+      ],
+      "geometric_relative_change_percent": -26.439429160311445,
+      "losses": 15,
+      "paired_log_ratio_effect_dz": -1.1547258363475192,
+      "sign_test_greater_holm_p": 7.05733420490698e-09,
+      "sign_test_greater_p": 7.05733420490698e-09,
+      "t_ci95_percent": [
+       -30.666217477378222,
+       -21.954963577887575
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 3.0290794904568004e-11,
+      "wilcoxon_less_p": 3.0290794904568004e-11,
+      "wins": 65
+     }
+    },
+    "paired_cells": 80
+   },
+   "native_vs_topology": {
+    "baseline": {
+     "mean_absolute_coverage80_error": 0.3536622319370508,
+     "mean_width80": 0.42176765762269497
+    },
+    "method": {
+     "mean_absolute_coverage80_error": 0.042702844291925425,
+     "mean_width80": 1.473408791422844
+    },
+    "metrics": {
+     "mae": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -1.8848675388977498,
+       1.5793232976803129
+      ],
+      "geometric_relative_change_percent": -0.10889268148409625,
+      "losses": 45,
+      "paired_log_ratio_effect_dz": -0.04110492644160275,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 0.8907409802606481,
+      "t_ci95_percent": [
+       -0.6963743272638601,
+       0.4820645139726354
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.5191275509418657,
+      "wins": 35
+     },
+     "mse": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -1.455783786294762,
+       3.5754220671042614
+      ],
+      "geometric_relative_change_percent": 1.1890412646466286,
+      "losses": 59,
+      "paired_log_ratio_effect_dz": 0.31567141774228713,
+      "sign_test_greater_holm_p": 1.0,
+      "sign_test_greater_p": 0.9999957097200665,
+      "t_ci95_percent": [
+       0.349341594061614,
+       2.035767344429562
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.0,
+      "wilcoxon_less_p": 0.9984345511819993,
+      "wins": 21
+     },
+     "quantile_loss": {
+      "dataset_cluster_bootstrap_ci95_percent": [
+       -16.52219001865828,
+       -11.359638136095784
+      ],
+      "geometric_relative_change_percent": -13.895106000959167,
+      "losses": 0,
+      "paired_log_ratio_effect_dz": -2.6109319807651863,
+      "sign_test_greater_holm_p": 2.481541837659083e-24,
+      "sign_test_greater_p": 8.271806125530277e-25,
+      "t_ci95_percent": [
+       -14.986083160056985,
+       -12.790128414567615
+      ],
+      "ties": 0,
+      "wilcoxon_less_holm_p": 1.1756648649970124e-14,
+      "wilcoxon_less_p": 3.9188828833233745e-15,
+      "wins": 80
+     }
+    },
+    "paired_cells": 80
+   },
+   "native_width_at_least_10x": 0
+  }
+ },
+ "tirex_primary": {
+  "baseline": {
+   "mean_absolute_coverage80_error": 0.3536622319370508,
+   "mean_width80": 0.42176765762269497
+  },
+  "method": {
+   "mean_absolute_coverage80_error": 0.17598846107721333,
+   "mean_width80": 0.6563092533499002
+  },
+  "metrics": {
+   "mae": {
+    "dataset_cluster_bootstrap_ci95_percent": [
+     -40.17428962238958,
+     -18.215104320715014
+    ],
+    "geometric_relative_change_percent": -30.2643475996334,
+    "losses": 2,
+    "paired_log_ratio_effect_dz": -1.4794991917788909,
+    "sign_test_greater_holm_p": 5.3617847305687254e-21,
+    "sign_test_greater_p": 2.6808923652843627e-21,
+    "t_ci95_percent": [
+     -33.94463325823938,
+     -26.37901421823009
+    ],
+    "ties": 0,
+    "wilcoxon_less_holm_p": 1.1756648649970124e-14,
+    "wilcoxon_less_p": 4.3898999295086436e-15,
+    "wins": 78
+   },
+   "mse": {
+    "dataset_cluster_bootstrap_ci95_percent": [
+     -49.77198178016611,
+     -18.03149747653524
+    ],
+    "geometric_relative_change_percent": -35.145318480816144,
+    "losses": 3,
+    "paired_log_ratio_effect_dz": -1.1404199845862972,
+    "sign_test_greater_holm_p": 7.064205149264112e-20,
+    "sign_test_greater_p": 7.064205149264112e-20,
+    "t_ci95_percent": [
+     -40.40031457434268,
+     -29.4269812849708
+    ],
+    "ties": 0,
+    "wilcoxon_less_holm_p": 1.1756648649970124e-14,
+    "wilcoxon_less_p": 5.505206644479392e-15,
+    "wins": 77
+   },
+   "quantile_loss": {
+    "dataset_cluster_bootstrap_ci95_percent": [
+     -46.791949737952876,
+     -24.064360248017312
+    ],
+    "geometric_relative_change_percent": -36.66074845339682,
+    "losses": 0,
+    "paired_log_ratio_effect_dz": -1.6549507039996316,
+    "sign_test_greater_holm_p": 2.481541837659083e-24,
+    "sign_test_greater_p": 8.271806125530277e-25,
+    "t_ci95_percent": [
+     -40.433217810308406,
+     -32.64936195969048
+    ],
+    "ties": 0,
+    "wilcoxon_less_holm_p": 1.1756648649970124e-14,
+    "wilcoxon_less_p": 3.9188828833233745e-15,
+    "wins": 80
+   }
+  },
+  "paired_cells": 80
+ }
+}

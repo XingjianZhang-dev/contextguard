@@ -1,0 +1,66 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_helix_formal_test",
+  "output_root": "logs/original/gift_helix_formal_test",
+  "split": "test",
+  "max_windows": 256,
+  "datasets": {
+    "ett1_15T": {
+      "path": "data/GiftEval/ett1/15T",
+      "prediction_length": 48,
+      "imputer_path": "artifacts/helix/ett1_15T_seed2021"
+    },
+    "ett2_15T": {
+      "path": "data/GiftEval/ett2/15T",
+      "prediction_length": 48,
+      "imputer_path": "artifacts/helix/ett2_15T_seed2021"
+    },
+    "jena_10T": {
+      "path": "data/GiftEval/jena_weather/10T",
+      "prediction_length": 48,
+      "imputer_path": "artifacts/helix/jena_10T_seed2021"
+    },
+    "bitbrains_fast_5T": {
+      "path": "data/GiftEval/bitbrains_fast_storage/5T",
+      "prediction_length": 48,
+      "imputer_path": "artifacts/helix/bitbrains_fast_5T_seed2021"
+    },
+    "bitbrains_rnd_5T": {
+      "path": "data/GiftEval/bitbrains_rnd/5T",
+      "prediction_length": 48,
+      "imputer_path": "artifacts/helix/bitbrains_rnd_5T_seed2021"
+    },
+    "bizitobs_application": {
+      "path": "data/GiftEval/bizitobs_application",
+      "prediction_length": 60,
+      "imputer_path": "artifacts/helix/bizitobs_application_seed2021"
+    },
+    "bizitobs_service": {
+      "path": "data/GiftEval/bizitobs_service",
+      "prediction_length": 60,
+      "imputer_path": "artifacts/helix/bizitobs_service_seed2021"
+    },
+    "bizitobs_l2c_5T": {
+      "path": "data/GiftEval/bizitobs_l2c/5T",
+      "prediction_length": 48,
+      "imputer_path": "artifacts/helix/bizitobs_l2c_5T_seed2021"
+    }
+  },
+  "matrix": {
+    "dataset": [
+      "ett1_15T",
+      "ett2_15T",
+      "jena_10T",
+      "bitbrains_fast_5T",
+      "bitbrains_rnd_5T",
+      "bizitobs_application",
+      "bizitobs_service",
+      "bizitobs_l2c_5T"
+    ],
+    "model": ["chronos2", "timesfm25"],
+    "corruption": ["sensor_dropout"],
+    "severity": [1, 3],
+    "repair": ["helix"],
+    "corruption_seed": [201, 202, 203, 204, 205]
+  }
+}

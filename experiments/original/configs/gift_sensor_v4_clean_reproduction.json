@@ -1,0 +1,12 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_sensor_v4_clean_reproduction",
+  "python": "python3",
+  "output_root": "logs/original/gift_sensor_v4_clean_reproduction",
+  "split": "test",
+  "max_windows": 256,
+  "matrix": {
+    "severity": [1, 3],
+    "corruption_seed": [201, 202, 203, 204, 205]
+  }
+}

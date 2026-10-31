@@ -1,0 +1,8 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_sensor_v4_adaptive_multiseed_val",
+  "output_root": "logs/original/gift_sensor_v4_adaptive_multiseed_val",
+  "matrix": {
+    "corruption_seed": [101, 102, 103, 104, 105]
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "fingerprints_and_hashes_identical": true,
+ "max_relative_difference": {
+  "coverage80": 8.463768681562435e-05,
+  "mae": 3.33492131169792e-07,
+  "mse": 1.189127411699032e-06,
+  "quantile_loss": 2.3836899353340675e-07,
+  "width80": 7.68409974384093e-07
+ },
+ "runs_compared": 320
+}

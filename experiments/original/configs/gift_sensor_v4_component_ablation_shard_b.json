@@ -1,0 +1,19 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_sensor_v4_component_ablation_shard_b",
+  "output_root": "logs/original/gift_sensor_v4_component_ablation_shard_b",
+  "split": "test",
+  "max_windows": 256,
+  "matrix": {
+    "dataset": [
+      "bitbrains_rnd_5T",
+      "bizitobs_application",
+      "bizitobs_service",
+      "bizitobs_l2c_5T"
+    ],
+    "corruption": ["sensor_dropout"],
+    "severity": [3],
+    "repair": ["none", "ffill", "bidirectional", "contextguard"],
+    "corruption_seed": [201, 202, 203, 204, 205]
+  }
+}

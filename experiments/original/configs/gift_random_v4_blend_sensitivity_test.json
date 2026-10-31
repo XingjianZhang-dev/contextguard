@@ -1,0 +1,16 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_random_v4_blend_sensitivity_test",
+  "output_root": "logs/original/gift_random_v4_blend_sensitivity_test",
+  "split": "test",
+  "max_windows": 256,
+  "pass_through_axes": ["short_blend"],
+  "matrix": {
+    "corruption": ["random_missing"],
+    "severity": [3],
+    "repair": ["contextguard_adaptive"],
+    "corruption_seed": [201],
+    "short_blend": [0.0, 0.125, 0.25, 0.375, 0.5]
+  }
+}
+

@@ -1,0 +1,17 @@
+# Forecasting environment for Chronos-2 and TimesFM 2.5 (Python 3.12, CUDA 12.8).
+# torch is installed from the PyTorch index by setup_env.sh; the complete freeze is in
+# original/environment-freeze.txt.
+accelerate==1.14.0
+chronos-forecasting==2.2.1
+datasets==4.5.0
+einops==0.8.2
+huggingface-hub==0.36.0
+matplotlib==3.10.5
+numpy==2.3.2
+pandas==2.3.3
+pyarrow==25.0.1
+safetensors==0.8.0
+scikit-learn==1.7.2
+scipy==1.18.1
+tokenizers==0.22.2
+transformers==4.57.3

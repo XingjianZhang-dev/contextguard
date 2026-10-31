@@ -1,0 +1,13 @@
+{
+  "extends": "gift_sensor_v4_adaptive_val.json",
+  "experiment": "gift_sensor_v4_component_ablation_test",
+  "output_root": "logs/original/gift_sensor_v4_component_ablation_test",
+  "split": "test",
+  "max_windows": 256,
+  "matrix": {
+    "corruption": ["sensor_dropout"],
+    "severity": [3],
+    "repair": ["none", "ffill", "bidirectional", "contextguard"],
+    "corruption_seed": [201, 202, 203, 204, 205]
+  }
+}

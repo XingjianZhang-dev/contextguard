@@ -1,0 +1,69 @@
+{
+ "model": "timesfm25",
+ "model_sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8",
+ "corruption": "sensor_dropout",
+ "severity": 1,
+ "corruption_seed": 201,
+ "results": [
+  {
+   "dataset": "ett1_H",
+   "dataset_fingerprint": "a41baf364f5deda54a8864226f4aa6db424d174348f9589961d74e8bc8163aa6",
+   "windows": 20,
+   "failed_channels_per_window": 1,
+   "status": "error",
+   "exception": "ValueError",
+   "message": "The truth value of an empty array is ambiguous. Use `array.size > 0` to check that an array is not empty.",
+   "location": "linear_interpolation"
+  },
+  {
+   "dataset": "ett2_H",
+   "dataset_fingerprint": "837d7e439eb148dbec0a3a7dd680aca76e4365196b9c98087163f7d314b21591",
+   "windows": 20,
+   "failed_channels_per_window": 1,
+   "status": "error",
+   "exception": "ValueError",
+   "message": "The truth value of an empty array is ambiguous. Use `array.size > 0` to check that an array is not empty.",
+   "location": "linear_interpolation"
+  },
+  {
+   "dataset": "jena_H",
+   "dataset_fingerprint": "5e78dc1f11e0aa45104e8bb1ee05e35f413b09879854e0b6983d410adb5dd23a",
+   "windows": 19,
+   "failed_channels_per_window": 3,
+   "status": "error",
+   "exception": "ValueError",
+   "message": "The truth value of an empty array is ambiguous. Use `array.size > 0` to check that an array is not empty.",
+   "location": "linear_interpolation"
+  },
+  {
+   "dataset": "bitbrains_fast_H",
+   "dataset_fingerprint": "8060b5ea0402bfce2e2a4fed361af978f63c23d0689bfedb867a975c4739098a",
+   "windows": 32,
+   "failed_channels_per_window": 2,
+   "status": "error",
+   "exception": "ValueError",
+   "message": "The truth value of an empty array is ambiguous. Use `array.size > 0` to check that an array is not empty.",
+   "location": "linear_interpolation"
+  },
+  {
+   "dataset": "bitbrains_rnd_H",
+   "dataset_fingerprint": "d28412f3c82cc038ea251c2b51b8d73046579642cbdf54f86cb91a105bbb80a8",
+   "windows": 32,
+   "failed_channels_per_window": 2,
+   "status": "error",
+   "exception": "ValueError",
+   "message": "The truth value of an empty array is ambiguous. Use `array.size > 0` to check that an array is not empty.",
+   "location": "linear_interpolation"
+  },
+  {
+   "dataset": "bizitobs_l2c_H",
+   "dataset_fingerprint": "f289a89cd69c060d54b470a0ea3a0a9a9658a233def83736de6ea443113c0475",
+   "windows": 6,
+   "failed_channels_per_window": 1,
+   "status": "error",
+   "exception": "ValueError",
+   "message": "The truth value of an empty array is ambiguous. Use `array.size > 0` to check that an array is not empty.",
+   "location": "linear_interpolation"
+  }
+ ]
+}

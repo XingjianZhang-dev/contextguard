@@ -1,0 +1,44 @@
+{
+  "gift_eval": {
+    "repository": "Salesforce/GiftEval",
+    "revision": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0",
+    "fingerprints": {
+      "ett1/15T": "3be2adfb9a4c1a7617e8e8c9f0ae4b626e2263cd593c572d3434f5f6ef350393",
+      "ett2/15T": "754fe5cf35175fe9cf9f36001ff2b480c091bcd00f37662ca1d032c65d8b1aaf",
+      "jena_weather/10T": "434ca387ceae8a2e40bdf9171c27f38fc98fa39df22b25d81d1b3a1a029abad3",
+      "bitbrains_fast_storage/5T": "fcec86a5145777144761cd1f087849b98b45bc1280e94fb2cc3aad0b98d3b4f4",
+      "bitbrains_rnd/5T": "84cdd16b3f94f22facdc47ebecfb5985a1d2efd24875b25df441e2f63fcb14af",
+      "bizitobs_application": "a59dc6f1043a84c8211a558e41d565ad9b77910ee4beea1bcec0610e5e5a945d",
+      "bizitobs_service": "e9396d0bea7e09aaa8a0c7bee60263abc2c3d6f65e15466fbd085dff6a4d07a4",
+      "bizitobs_l2c/5T": "9d8188907583ddfe35afd9988d3e9c9b043d9e7b6bf26ad0c344fff07dde5b87",
+      "ett1/H": "a41baf364f5deda54a8864226f4aa6db424d174348f9589961d74e8bc8163aa6",
+      "ett2/H": "837d7e439eb148dbec0a3a7dd680aca76e4365196b9c98087163f7d314b21591",
+      "jena_weather/H": "5e78dc1f11e0aa45104e8bb1ee05e35f413b09879854e0b6983d410adb5dd23a",
+      "bitbrains_fast_storage/H": "8060b5ea0402bfce2e2a4fed361af978f63c23d0689bfedb867a975c4739098a",
+      "bitbrains_rnd/H": "d28412f3c82cc038ea251c2b51b8d73046579642cbdf54f86cb91a105bbb80a8",
+      "bizitobs_l2c/H": "f289a89cd69c060d54b470a0ea3a0a9a9658a233def83736de6ea443113c0475"
+    }
+  },
+  "models": {
+    "chronos2": {
+      "repository": "amazon/chronos-2",
+      "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+      "local_dir": "models/amazon-chronos-2",
+      "file": "model.safetensors",
+      "sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+    },
+    "timesfm25": {
+      "repository": "google/timesfm-2.5-200m-pytorch",
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "local_dir": "models/google-timesfm-2.5-200m-pytorch",
+      "file": "model.safetensors",
+      "sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+    },
+    "tirex": {
+      "repository": "NX-AI/TiRex",
+      "revision": "63c740922493f5fbe60b277609ec62babfba2762",
+      "file": "model.ckpt",
+      "sha256": "b8c3f5a036c63272ce4b91c00187e26922a394cb6cb49d4e16db070ad0422314"
+    }
+  }
+}

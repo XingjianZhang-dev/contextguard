@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\caption{Cross-channel estimators relative to topology-aware repair and the effect of the calibration gate (160 primary cells).}
+\label{tab:estimators}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Estimator & Gate & MSE $\Delta$ (\%) [95\% CI] & MAE $\Delta$ (\%) [95\% CI] & QL $\Delta$ (\%) [95\% CI] & MSE $W/L$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Relative to topology}} \\
+Ridge & none & $-34.58$ [$-50.18$, $-16.41$] & $-29.00$ [$-39.00$, $-16.81$] & $-38.04$ [$-48.09$, $-25.03$] & 154/6 \\
+Ridge & calibration & $-35.90$ [$-51.03$, $-17.90$] & $-30.17$ [$-39.84$, $-18.41$] & $-38.86$ [$-48.65$, $-26.11$] & 156/4 \\
+Ledoit--Wolf & none & $-35.57$ [$-51.54$, $-16.95$] & $-29.30$ [$-39.60$, $-16.77$] & $-38.49$ [$-48.69$, $-25.18$] & 154/6 \\
+Ledoit--Wolf & calibration & $-37.03$ [$-52.31$, $-18.48$] & $-30.62$ [$-40.56$, $-18.55$] & $-39.43$ [$-49.32$, $-26.38$] & 157/3 \\
+ContextGuard & none & $-36.43$ [$-52.71$, $-17.31$] & $-29.75$ [$-40.25$, $-17.00$] & $-39.06$ [$-49.43$, $-25.40$] & 154/6 \\
+ContextGuard & calibration & $-37.89$ [$-53.39$, $-18.91$] & $-31.07$ [$-41.24$, $-18.72$] & $-40.01$ [$-50.10$, $-26.69$] & 157/3 \\
+\midrule
+\multicolumn{6}{l}{\emph{Gated relative to ungated}} \\
+Ridge &  & $-2.02$ [$-4.56$, $-0.26$] & $-1.65$ [$-2.88$, $-0.56$] & $-1.31$ [$-2.52$, $-0.39$] & 115/25 \\
+Ledoit--Wolf &  & $-2.27$ [$-4.76$, $-0.38$] & $-1.86$ [$-3.16$, $-0.66$] & $-1.53$ [$-2.76$, $-0.49$] & 75/25 \\
+ContextGuard &  & $-2.30$ [$-4.82$, $-0.39$] & $-1.88$ [$-3.18$, $-0.66$] & $-1.57$ [$-2.79$, $-0.52$] & 78/22 \\
+\midrule
+\multicolumn{6}{l}{\emph{Gated ContextGuard relative to gated estimator}} \\
+Ridge &  & $-3.10$ [$-8.88$, $-0.02$] & $-1.29$ [$-3.67$, $-0.01$] & $-1.89$ [$-5.22$, $-0.06$] & 105/55 \\
+Ledoit--Wolf &  & $-1.36$ [$-4.00$, $-0.01$] & $-0.66$ [$-1.91$, $-0.01$] & $-0.96$ [$-2.81$, $-0.01$] & 94/66 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{ContextGuard relative to topology on six held-out configurations and with a third forecaster.}
+\label{tab:breadth}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Set & Forecaster(s) & MSE $\Delta$ (\%) [95\% CI] & MAE $\Delta$ (\%) [95\% CI] & QL $\Delta$ (\%) [95\% CI] & MSE $W/L$ \\
+\midrule
+Held-out (hourly, 6 configs) & all three & $-27.86$ [$-37.48$, $-16.88$] & $-23.31$ [$-31.09$, $-15.01$] & $-31.69$ [$-39.05$, $-23.34$] & 176/4 \\
+ & Chronos-2 & $-29.05$ [$-37.96$, $-18.33$] & $-24.07$ [$-31.51$, $-16.03$] & $-36.23$ [$-43.66$, $-27.37$] & 60/0 \\
+ & TimesFM 2.5 & $-29.22$ [$-38.33$, $-18.30$] & $-23.62$ [$-31.24$, $-15.58$] & $-29.95$ [$-37.14$, $-21.98$] & 60/0 \\
+ & TiRex & $-25.24$ [$-36.58$, $-11.80$] & $-22.21$ [$-31.15$, $-12.65$] & $-28.66$ [$-37.24$, $-19.38$] & 56/4 \\
+Primary (8 configs) & TiRex & $-35.15$ [$-49.77$, $-18.03$] & $-30.26$ [$-40.17$, $-18.22$] & $-36.66$ [$-46.79$, $-24.06$] & 77/3 \\
+\midrule
+\multicolumn{6}{l}{\emph{Gated relative to ungated ContextGuard}} \\
+Held-out (hourly, 6 configs) & all three & $-3.72$ [$-7.43$, $-0.22$] & $-2.21$ [$-4.64$, $-0.04$] & $-1.95$ [$-4.32$, $+0.14$] & 101/19 \\
+Primary (8 configs) & TiRex & $-2.16$ [$-4.44$, $-0.44$] & $-1.65$ [$-2.96$, $-0.54$] & $-1.51$ [$-2.68$, $-0.49$] & 41/9 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

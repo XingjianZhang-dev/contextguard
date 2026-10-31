@@ -1,0 +1,71 @@
+{
+  "experiment": "gift_sensor_v4_adaptive_val",
+  "python": "python3",
+  "evaluator": "experiments/original/scripts/run_gift_fault_eval.py",
+  "output_root": "logs/original/gift_sensor_v4_adaptive_val",
+  "split": "val",
+  "context_length": 512,
+  "max_windows": 64,
+  "batch_size": 32,
+  "models": {
+    "chronos2": {
+      "name": "chronos2",
+      "path": "models/amazon-chronos-2"
+    },
+    "timesfm25": {
+      "name": "timesfm25",
+      "path": "models/google-timesfm-2.5-200m-pytorch"
+    }
+  },
+  "datasets": {
+    "ett1_15T": {
+      "path": "data/GiftEval/ett1/15T",
+      "prediction_length": 48
+    },
+    "ett2_15T": {
+      "path": "data/GiftEval/ett2/15T",
+      "prediction_length": 48
+    },
+    "jena_10T": {
+      "path": "data/GiftEval/jena_weather/10T",
+      "prediction_length": 48
+    },
+    "bitbrains_fast_5T": {
+      "path": "data/GiftEval/bitbrains_fast_storage/5T",
+      "prediction_length": 48
+    },
+    "bitbrains_rnd_5T": {
+      "path": "data/GiftEval/bitbrains_rnd/5T",
+      "prediction_length": 48
+    },
+    "bizitobs_application": {
+      "path": "data/GiftEval/bizitobs_application",
+      "prediction_length": 60
+    },
+    "bizitobs_service": {
+      "path": "data/GiftEval/bizitobs_service",
+      "prediction_length": 60
+    },
+    "bizitobs_l2c_5T": {
+      "path": "data/GiftEval/bizitobs_l2c/5T",
+      "prediction_length": 48
+    }
+  },
+  "matrix": {
+    "dataset": [
+      "ett1_15T",
+      "ett2_15T",
+      "jena_10T",
+      "bitbrains_fast_5T",
+      "bitbrains_rnd_5T",
+      "bizitobs_application",
+      "bizitobs_service",
+      "bizitobs_l2c_5T"
+    ],
+    "model": ["chronos2", "timesfm25"],
+    "corruption": ["sensor_dropout"],
+    "severity": [1],
+    "repair": ["topology", "contextguard_adaptive"],
+    "corruption_seed": [101]
+  }
+}
