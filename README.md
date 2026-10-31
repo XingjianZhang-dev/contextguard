@@ -28,7 +28,7 @@ has no trainable parameters, and it works in front of any forecaster.
 Geometric mean changes over paired cells; every dataset-cluster bootstrap interval lies below zero.
 
 * **The gate is estimator-agnostic.** It improves ridge-regression (−2.02% MSE), Ledoit–Wolf (−2.27%)
-  and ContextGuard's pooled conditional estimate (−2.30%), and halves the cells in which repair is worse
+  and ContextGuard's pooled conditional estimate (−2.30%), and reduces the cells in which repair is worse
   than temporal filling; gated ContextGuard is the most accurate configuration.
 * **The gate transfers out of sample.** A cross-fitted gate reproduces 49 of 50 activation decisions,
   and on test contexts gated reconstruction beats the fallback on 44 of 45 active channels (geometric
