@@ -130,13 +130,13 @@ def recovery_table() -> str:
     return (
         "\\begin{table}[t]\n\\centering\n\\caption{Dropout-induced MSE loss and the fraction recovered by "
         "ContextGuard, with training-only calibration reliability.}\n\\label{tab:recovery}\n\\small\n"
-        "\\begin{tabular}{lrrrrrr}\n\\toprule\n"
-        " & & \\multicolumn{2}{c}{MSE increase from dropout (\\%)} & "
-        "\\multicolumn{2}{c}{Fraction recovered (\\%)} & \\\\\n"
+        "\\resizebox{\\textwidth}{!}{%\n\\begin{tabular}{lrrrrrr}\n\\toprule\n"
+        " & & \\multicolumn{2}{c}{MSE increase (\\%)} & "
+        "\\multicolumn{2}{c}{Recovered (\\%)} & \\\\\n"
         "\\cmidrule(lr){3-4}\\cmidrule(lr){5-6}\n"
-        "Dataset & Channels & Chronos-2 & TimesFM 2.5 & Chronos-2 & TimesFM 2.5 & Mean $I_j$ \\\\\n\\midrule\n"
+        "Dataset & $C$ & Chronos-2 & TimesFM 2.5 & Chronos-2 & TimesFM 2.5 & Mean $I_j$ \\\\\n\\midrule\n"
         + "\n".join(lines)
-        + "\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+        + "\n\\bottomrule\n\\end{tabular}\n}\n\\end{table}\n"
     )
 
 

@@ -3,11 +3,12 @@
 \caption{Dropout-induced MSE loss and the fraction recovered by ContextGuard, with training-only calibration reliability.}
 \label{tab:recovery}
 \small
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{lrrrrrr}
 \toprule
- & & \multicolumn{2}{c}{MSE increase from dropout (\%)} & \multicolumn{2}{c}{Fraction recovered (\%)} & \\
+ & & \multicolumn{2}{c}{MSE increase (\%)} & \multicolumn{2}{c}{Recovered (\%)} & \\
 \cmidrule(lr){3-4}\cmidrule(lr){5-6}
-Dataset & Channels & Chronos-2 & TimesFM 2.5 & Chronos-2 & TimesFM 2.5 & Mean $I_j$ \\
+Dataset & $C$ & Chronos-2 & TimesFM 2.5 & Chronos-2 & TimesFM 2.5 & Mean $I_j$ \\
 \midrule
 Bitbrains Fast & 2 & 11.5 & 16.5 & 100.7 & 100.4 & 0.999 \\
 Bitbrains RND & 2 & 15.7 & 16.4 & 100.0 & 100.0 & 0.999 \\
@@ -19,4 +20,5 @@ ETT2 & 7 & 165.3 & 158.8 & 9.1 & 9.5 & 0.483 \\
 BizITObs Service & 2 & 80.2 & 73.8 & 12.5 & 11.0 & 0.066 \\
 \bottomrule
 \end{tabular}
+}
 \end{table}
